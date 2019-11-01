@@ -1,0 +1,26 @@
+{
+  "name": "netlify-lambda",
+  "version": "1.0.0",
+  "description": "My Netlify Lambda Functions",
+  "main": "app.js",
+  "author": "Sutan Nasution.",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "url": "https://github.com/sutanlab/netlify-lambda.git"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "build": "netlify-lambda -b false build service",
+    "serve": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "netlify-lambda": "^1.4.0",
+    "onesignal-node": "^2.1.1",
+    "serverless-http": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}

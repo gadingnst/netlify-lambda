@@ -1,0 +1,8 @@
+[build]
+  command = "yarn install && yarn build"
+  functions = "functions"
+
+[[redirects]]
+  from = "https://laughing-lovelace-b05a22.netlify.com/*"
+  to = "https://lambda.sutanlab.id/:splat"
+  status = 301
